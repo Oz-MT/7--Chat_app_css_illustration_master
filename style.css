@@ -125,3 +125,55 @@ body {
   font-size: 1.9rem;
   letter-spacing: 0.1rem;
 }
+
+.text-left {
+  font-size: 1.9rem;
+  color: rgb(192, 108, 192);
+  width: 100%;
+  max-width: 31rem;
+  padding: 1.5rem;
+  background-color: rgb(242, 229, 242);
+  margin: 2rem;
+  border-radius: 2.5rem 2.5rem 2.5rem 1rem;
+  opacity: 0.8;
+  line-height: 2.7rem;
+}
+
+.dogs {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.dogs img {
+  width: 10rem;
+  border-radius: 2rem;
+  margin-left: 2rem;
+  margin-top: 2rem;
+}
+
+.text-right {
+  margin: 2rem;
+  font-size: 1.9rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.long .empty {
+  width: 31rem;
+}
+
+.short .empty {
+  width: 34rem;
+}
+
+.text-right h4 {
+  padding: 1.5rem;
+  border-radius: 2.5rem 2.5rem 1rem 2.5rem;
+  opacity: 0.5;
+  line-height: 2.7rem;
+  background: var(--white);
+}
+
+/* .price{
+
+} */
