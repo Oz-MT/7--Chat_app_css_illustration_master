@@ -27,3 +27,101 @@ body {
   font-size: 1.6rem;
   font-family: "Rubik", sans-serif;
 }
+
+.bg-violet {
+  width: 100%;
+  max-width: 32.5%;
+  height: 90vh;
+  background-image: linear-gradient(var(--light-magenta), var(--light-violet));
+  border-radius: 0 0 60rem 60rem;
+  margin-left: -10rem;
+}
+
+.phone {
+  width: 100%;
+  max-width: 63rem;
+  height: 130rem;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  /* background-color: var(--light-grayish); */
+  margin: 16vh 0 0 -15rem;
+  border: 3rem solid var(--white);
+  border-radius: 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  background-color: var(--light-grayish);
+  width: 100%;
+  max-width: 57rem;
+  height: 124rem;
+  border: var(--white);
+  border-radius: 6rem;
+}
+
+.container {
+  display: flex;
+}
+
+.top {
+  background-image: linear-gradient(
+    to left,
+    var(--light-magenta),
+    var(--light-violet)
+  );
+  width: 100%;
+  max-width: 57rem;
+  height: 16rem;
+  border: var(--white);
+  border-radius: 6rem 6rem 1.5rem 1.5rem;
+}
+
+.top-top {
+  width: 100%;
+  max-width: 32rem;
+  height: 5rem;
+  background-color: var(--white);
+  margin: auto;
+  border-radius: 0 0 4rem 4rem;
+}
+
+.person {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 4rem;
+  align-items: center;
+  margin-top: 2rem;
+  color: var(--white);
+}
+
+.person .left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.person .left img {
+  width: 6rem;
+  border-radius: 50%;
+  border: 0.3rem solid var(--white);
+  margin: 0 1.8rem;
+}
+
+.person i {
+  font-size: 3rem;
+  opacity: 0.8;
+}
+
+.person .name h2 {
+  font-size: 2.8rem;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+  letter-spacing: 0.1rem;
+}
+
+.person .name p {
+  opacity: 0.5;
+  font-size: 1.9rem;
+  letter-spacing: 0.1rem;
+}
