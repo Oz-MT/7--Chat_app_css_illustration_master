@@ -30,7 +30,7 @@ body {
 
 .bg-violet {
   width: 100%;
-  max-width: 32.5%;
+  max-width: 37.5%;
   height: 90vh;
   background-image: linear-gradient(var(--light-magenta), var(--light-violet));
   border-radius: 0 0 60rem 60rem;
@@ -242,6 +242,7 @@ body {
   width: 62rem;
   margin-left: 15rem;
   z-index: 2;
+  margin-right: -10rem;
 }
 
 .container .text .block-text h1 {
@@ -259,12 +260,13 @@ body {
 
 .bg-light {
   width: 100%;
-  max-width: 32.5%;
+  max-width: 27.5%;
   height: 100vh;
   /* background-color: var(--light-grayish); */
   background-image: linear-gradient(var(--light-grayish), var(--light-grayish));
   border-radius: 60rem 60rem 0 0;
   margin-top: 10vh;
-  margin-right: -20rem;
+  margin-right: -30rem;
   opacity: 0.5;
+  z-index: -1;
 }
