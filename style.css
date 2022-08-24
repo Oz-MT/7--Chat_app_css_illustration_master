@@ -275,9 +275,11 @@ body {
 }
 
 @media (max-width: 376px) {
+  body {
+    overflow: auto;
+  }
   .container {
     flex-direction: column;
-    overflow: auto;
   }
 
   .container .text .block-text {
