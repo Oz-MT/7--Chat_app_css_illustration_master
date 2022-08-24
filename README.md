@@ -31,7 +31,7 @@ My challenge is to build out mobile and a desktop version of the this chat app c
 
 ### Live Link
 
-[Click Me!](https://oz-mt.github.io/huddle-landing-page/)
+[Click Me!](https://oz-mt.github.io/chat-app-css-illustration/)
 
 ## My process
 
