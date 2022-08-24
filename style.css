@@ -267,7 +267,7 @@ body {
   background-image: linear-gradient(var(--light-grayish), var(--light-grayish));
   border-radius: 60rem 60rem 0 0;
   /* margin-top: 10vh; */
-  margin-right: -30rem;
+  margin-right: -10rem;
   opacity: 0.5;
   position: absolute;
   bottom: 0;
@@ -277,6 +277,7 @@ body {
 @media (max-width: 376px) {
   .container {
     flex-direction: column;
+    overflow: auto;
   }
 
   .container .text .block-text {
